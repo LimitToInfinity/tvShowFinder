@@ -41,6 +41,6 @@ export function parseResponsesToJSON(responses) {
   return Promise.all(responses.map(parseJSON));
 }
 
-function parseJSON(response) {
+export function parseJSON(response) {
   return response.json();
 }
