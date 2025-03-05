@@ -43,7 +43,7 @@
   transition: all 0.3s;
 }
 
-#web-networks-search:hover,
+/* #web-networks-search:hover,
 #web-networks-search:focus {
   -webkit-appearance: none;
   appearance: none;
@@ -51,10 +51,11 @@
   background-repeat: no-repeat, repeat;
   background-position: left 0.2em bottom 5%, 0 0;
   background-size: 0.6em auto, 100%;
-}
+} */
 
 #web-networks-search::-webkit-calendar-picker-indicator {
-  display: none;
+  opacity: 100;
+  color: rgba(51, 123, 174);
 }
 
 .web-networks-label {

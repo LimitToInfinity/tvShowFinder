@@ -32,6 +32,7 @@
 }
 
 .genre-pill-header > .hamburger {
+  display: none;
   padding-right: 0.5rem;
   cursor: pointer;
 }
